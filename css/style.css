@@ -1,0 +1,19 @@
+body {
+    font-size: large;
+}
+
+header {
+    height: 80px;
+    background-color: #2c3e50;
+}
+
+
+
+.r-red {
+    border: 2px dashed orangered;
+}
+
+.c-yellow {
+    height: 40px;
+   background-color: rgb(219, 219, 163);
+}
