@@ -47,6 +47,7 @@ header {
 
 .about {
     padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
     background-color: #1abc9c;
    
@@ -56,6 +57,13 @@ header {
     margin-bottom: 20px;
 
 }
+
+.form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 
 
 
