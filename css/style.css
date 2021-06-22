@@ -30,7 +30,7 @@ header {
 }
 
 .j-style {
-    height: 400px;
+    height: 350px;
 }
 
 .portfolio {
@@ -43,6 +43,18 @@ header {
     background-color: rgb(177, 46, 72);
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+.about {
+    padding-top: 30px;
+    color: white;
+    background-color: #1abc9c;
+   
+}
+
+.p-about {
+    margin-bottom: 20px;
+
 }
 
 
