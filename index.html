@@ -131,18 +131,56 @@
         </section>
 
 
-        <!--! Form section -->
-        <section class="form">
-            <h2>CONTACT ME</h2>
-            <div>stella</div>
+        <!--! Contact and Form section -->
+        <section class="contact py-5">
+            <p class="section-header text-center">CONTACT ME</p>
+            <div class="divider d-flex align-items-center justify-content-center pt-1 pb-3">
+                <div class="break-line"></div>
+                <div class="star"><i class="fas fa-star"></i></div>
+                <div class="break-line"></div>
+            </div>
+
             <div class="container">
-                <div class="row r-red pad-50">
-                    <div class="col-sm-12 col-md-12 col-lg-12 c-yellow j-style">Form</div>         
-                </div>
-                <div class="button"><a href="#"></a>Send</div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 offset-md-3 col-lg-10 offset-lg-1">
+                        <form class="mt-3">
+                            <div class="form-group mb-3">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp">
+                            </div>
+
+                            <div class="form-group mb-3">
+                              <label for="email">Email address</label>
+                              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="phone-number">Phone number</label>
+                                <input type="tel" class="form-control" id="phone-number" name="phone-number" aria-describedby="phone-numberHelp">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn bg-1abc9c text-white">Send</button>
+                          </form>
+                    </div>         
+                </div>  
             </div>
         </section>
     </main>
+
+
+
+
+
+
+
+
+
+
 
     <footer class="container-fluid">
         <section class="row r-red info-site p-align">
