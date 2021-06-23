@@ -14,9 +14,14 @@ body {
 }
 
 #avatar {
-    width: 180px;
+    width: 200px;  
 }
 
+#j-title {
+    font-size: 2.5em;
+    margin-bottom: 0;
+
+}
 
 .break-line {
     width: 100px;
