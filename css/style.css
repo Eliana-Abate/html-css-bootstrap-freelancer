@@ -13,6 +13,18 @@ body {
     font-size: 0.8em;
 }
 
+.section-header {
+    font-size: 2em;
+}
+
+
+
+.jumbotron {
+    background-color: #1abc9c;
+    height: 500px;
+
+}
+
 #avatar {
     width: 200px;  
 }
@@ -24,8 +36,8 @@ body {
 }
 
 .break-line {
-    width: 100px;
-    height: 2px;
+    width: 130px;
+    height: 3px;
     background-color: white;
     display: inline-block;
 }
@@ -36,37 +48,24 @@ body {
     display: inline-block;
 }
 
-
-
-
-
-.jumbotron {
-    background-color: #1abc9c;
-    height: 500px;
-
-}
-
-.j-style {
-    height: 350px;
-}
+/* PORTFOLIO SECTION */
 
 .portfolio {
-    padding-top: 30px;
-    color: rgb(19, 39, 51);
+    color: #2c3e50;
 }
 
-.p-style {
-    width: 350px;
-    height: 250px;
-    background-color: rgb(177, 46, 72);
-    border-radius: 20px;
-    margin-bottom: 20px;
+.portfolio .divider .break-line {
+    background-color: #2c3e50;
 }
 
-.p-align {
-    justify-content: space-around;
-    align-items: center;
+.ptf-image {
+    max-width: 100%;
+    border-radius: 10px;
 }
+
+
+
+/*ABOUT SECTION */
 
 .about {
     padding-top: 30px;
