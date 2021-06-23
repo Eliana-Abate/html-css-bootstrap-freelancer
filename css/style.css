@@ -39,10 +39,16 @@ header {
 }
 
 .p-style {
+    width: 350px;
     height: 250px;
     background-color: rgb(177, 46, 72);
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+.p-align {
+    justify-content: space-around;
+    align-items: center;
 }
 
 .about {
@@ -61,6 +67,32 @@ header {
 .form {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.pad-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+
+}
+
+.info-site {
+    padding: 30px;
+    background-color: rgb(45, 68, 110);
+}
+
+.info-site .c-yellow {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.copyright-info {
+    height: 60px;
+    background-color: rgb(26, 25, 70);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 
