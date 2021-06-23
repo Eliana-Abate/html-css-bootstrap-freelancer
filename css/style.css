@@ -14,16 +14,23 @@ body {
 }
 
 #avatar {
-    width: 30%;
+    width: 35%;
 }
 
-
+.break-line {
+    width: 200px;
+    height: 2px;
+    margin-right: 30px;
+    background-color: white;
+    display: inline-block;
+}
 
 
 
 .jumbotron {
     background-color: #1abc9c;
     height: 500px;
+
 }
 
 .j-style {
