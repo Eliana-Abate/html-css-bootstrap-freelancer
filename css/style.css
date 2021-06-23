@@ -1,16 +1,15 @@
+/*? ================ UTILITIES ================ */
 body {
     font-family: sans-serif;
     font-weight: 600;
 }
 
-
 .bg-2c3e50 {
     background-color: #2c3e50;
 }
 
-#navbarNav {
-    flex-grow: 0;
-    font-size: 0.8em;
+.bg-1abc9c {
+    background-color: #1abc9c;
 }
 
 .section-header {
@@ -19,8 +18,16 @@ body {
 
 
 
+/*! =============== HEADER =============== */
+#navbarNav {
+    flex-grow: 0;
+    font-size: 0.8em;
+}
+
+
+/*! ================ MAIN ================ */
+/* JUMBOTRON SECTION */
 .jumbotron {
-    background-color: #1abc9c;
     height: 500px;
 
 }
@@ -48,8 +55,8 @@ body {
     display: inline-block;
 }
 
-/* PORTFOLIO SECTION */
 
+/* PORTFOLIO SECTION */
 .portfolio {
     color: #2c3e50;
 }
@@ -64,21 +71,22 @@ body {
 }
 
 
-
 /*ABOUT SECTION */
-
-.about {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    background-color: #1abc9c;
-   
-}
-
-.p-about {
-    margin-bottom: 20px;
+.button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
 
 }
+
+.button .fas.fa-download {
+    margin-right: 10px;
+}
+
+
+
+
 
 .form {
     padding-top: 30px;
