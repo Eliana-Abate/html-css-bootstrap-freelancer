@@ -13,17 +13,17 @@ body {
     font-size: 0.8em;
 }
 
-
-
-.c-yellow {
-   background-color: rgb(219, 219, 163);
+#avatar {
+    width: 30%;
 }
+
+
+
+
 
 .jumbotron {
     background-color: #1abc9c;
-    height: 400px;
-    display: flex;
-    align-items: center;
+    height: 500px;
 }
 
 .j-style {
