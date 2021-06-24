@@ -112,7 +112,8 @@ body {
 }
 
 
-/*INFO SECTION */
+/*! ================ FOOTER ================ */
+/* Info section */
 .social-logo {
     width: 30px;
     height: 30px;
@@ -142,8 +143,7 @@ body {
     text-decoration: underline;
 }
 
-
-/*! ================ FOOTER ================ */
+/* Copyright */
 .copyright {
     height: 80px;
 }
